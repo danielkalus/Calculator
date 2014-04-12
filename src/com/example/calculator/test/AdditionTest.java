@@ -33,6 +33,8 @@ public class AdditionTest extends ActivityInstrumentationTestCase2<MainActivity>
 	@Test
 	public void testeAddition()
 	{
+	
+			
 		solo.clickOnButton("3");
 		solo.clickOnButton("+");
 		solo.clickOnButton("4");
